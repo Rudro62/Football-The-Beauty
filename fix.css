@@ -52,52 +52,32 @@ body {
     color: white;
 }
 
-#solid:hover {
-    font-size: 15px;
-    transition: font-size 1s ease-in 1s;
-}
-
 /* top section end  */
 /* main section start  */
 .important {
     padding-left: 100px;
 }
 
-.player-items {
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.fixture {
+    display: flex;
 }
 
-.player-card {
+.flag {
     margin-left: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 10px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
     grid-row-gap: 10px;
-
+    justify-content: center;
+    align-items: center;
 }
 
-
-.player-list {
-    text-align: center;
-    height: 362px;
-    width: 280px;
-    background-color: whitesmoke;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    border-radius: 5px;
-}
-
-.player-list img {
-    width: 90%;
-}
-
-.trans {
-    width: 67px;
-    height: 24px;
-    border-radius: 5px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.flag img {
+    width: 94px;
+    height: 55px;
+    padding-top: 50px;
+    padding-left: 20px;
 }
 
 .menu {
@@ -156,8 +136,28 @@ body {
     font-size: 20px;
 }
 
-/* main section close */
-/* footer area star  */
+.common {
+    height: 242px;
+    width: 280px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.spans {
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+.country {
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.time {
+    margin-left: 20px;
+}
+
+/* main section end  */
+/* footer start  */
 footer {
     width: 1349px;
     height: 444px;
@@ -207,5 +207,3 @@ hr {
     font-size: 30px;
     padding-right: 10px;
 }
-
-/* this is second website css rule file  */
